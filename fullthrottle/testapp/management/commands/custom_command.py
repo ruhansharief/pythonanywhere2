@@ -58,7 +58,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         records = []
-        import pdb;pdb.set_trace()
+        
         model_to_update = options['model_to_update']
         if model_to_update == 1:
             for i in range(0,5):
